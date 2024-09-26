@@ -45,7 +45,7 @@ include("controller.php");
             </div>
           </span>
           <div class="dropdown-divider"></div>
-          <a href="#" class="dropdown-item dropdown-footer">Settings</a>
+          <a href="#" class="dropdown-item dropdown-footer"></a>
           <div class="dropdown-divider"></div>
           <form method="POST">
             <button type="submit" name="logout" class="dropdown-item dropdown-footer">Logout</a>
@@ -74,7 +74,7 @@ include("controller.php");
           <img src="dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block"><?php echo $_SESSION['name']= 'Admin';?></a>
+          <a href="#" class="d-block"><?php echo $_SESSION['name']= 'Human Resource 3';?></a>
         </div>
       </div>
 

@@ -204,3 +204,48 @@ var interval = setInterval(function() {
 
 </body>
 </html>
+<!-- Sidebar with Admin Login link -->
+<!-- Sidebar with Admin Login link -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Attendance and Payroll System</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="dist/css/adminlte.min.css">
+  <style>
+    .admin-login-link {
+      position: absolute; /* Position it absolutely */
+      top: 10px;         /* Distance from the top */
+      left: 10px;        /* Distance from the left */
+      background-color: #343a40; /* Background color */
+      color: #ffffff;    /* Text color */
+      padding: 10px 15px; /* Padding */
+      border-radius: 5px; /* Rounded corners */
+      text-decoration: none; /* No underline */
+      font-weight: bold; /* Bold text */
+    }
+    
+    .admin-login-link:hover {
+      background-color: #495057; /* Darker shade on hover */
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Admin Login link at the upper left -->
+  <a class="admin-login-link" href="admin/index.php">
+    <i class="fas fa-user-lock"></i> Admin Login
+  </a>
+
+  <!-- Rest of the content of the page -->
+
+  <!-- Scripts -->
+  <script src="plugins/jquery/jquery.min.js"></script>
+  <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="dist/js/adminlte.min.js"></script>
+
+</body>
+</html>

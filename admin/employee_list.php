@@ -56,7 +56,7 @@ include("controller.php");
             </div>
           </span>
           <div class="dropdown-divider"></div>
-          <a href="#" class="dropdown-item dropdown-footer">Settings</a>
+          <a href="#" class="dropdown-item dropdown-footer"></a>
           <div class="dropdown-divider"></div>
           <form method="POST">
             <button type="submit" name="logout" class="dropdown-item dropdown-footer">Logout</a>

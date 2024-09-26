@@ -107,3 +107,51 @@ var interval = setInterval(function() {
 
 </body>
 </html>
+<div class="sidebar" style="position: absolute; top: 10px; left: 10px;">
+  <a href="/hr3/index.php"><i class="fas fa-clock"></i> Attendance</a>
+</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Attendance and Payroll System</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="dist/css/adminlte.min.css">
+  <style>
+    .sidebar {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+    }
+
+    .sidebar-button {
+      display: inline-block; /* Make it behave like a button */
+      padding: 10px 15px; /* Space inside the button */
+      background-color: #007bff; /* Button background color */
+      color: #ffffff; /* Text color */
+      text-decoration: none; /* No underline */
+      border-radius: 5px; /* Rounded corners */
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+      transition: background-color 0.3s, transform 0.3s; /* Smooth transition */
+    }
+
+    .sidebar-button:hover {
+      background-color: #0056b3; /* Darker blue on hover */
+      transform: translateY(-2px); /* Slight lift on hover */
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Sidebar with Attendance link -->
+  <div class="sidebar">
+    <a href="/EC.HR3/index.php" class="sidebar-button">
+      <i class="fas fa-clock"></i> Attendance
+    </a>
+  </div>
+
+  
+
+  
