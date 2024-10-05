@@ -237,7 +237,7 @@ var interval = setInterval(function() {
 
   <!-- Admin Login link at the upper left -->
   <a class="admin-login-link" href="admin/index.php">
-    <i class="fas fa-user-lock"></i> Admin Login
+    <i class="fas fa-user-lock"></i> Admin 
   </a>
 
   <!-- Rest of the content of the page -->
